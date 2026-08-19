@@ -18,7 +18,7 @@ st.write(
 # File uploader
 uploaded_file = st.file_uploader(
     "Upload your HAR file",
-    type=["har"]
+    type=None
 )
 
 
